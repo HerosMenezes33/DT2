@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="keywords" content="" />
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Titulo do Site -->
+	<title>DT2-BRASIL - DOTA2</title>
+
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+	<!-- jQuery -->
+	<script src="js/jquery-3.1.1.js"></script>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="owl-carousel/owl.carousel.js"></script>
+
+	<!-- CUSTOM JS -->
+	<script src="js/script.js"></script>
+
+				
+	<!-- External libraries: jQuery & GreenSock -->
+	<script src="layerslider/js/greensock.js" type="text/javascript"></script>
+
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+
+	
+	<!-- Bootstrap Core CSS, FontAwesome, Fonts -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+
+	<!-- Tree Main CSS -->
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="css/discordInvite.css" rel="stylesheet">
+
+	<!-- Fixes and mobile -->
+	<link href="css/bootstrap-fixes.css" rel="stylesheet">
+
+	<!-- LayerSlider stylesheet -->
+	<link rel="stylesheet" href="layerslider/css/layerslider.css" type="text/css">
+	
+	<!-- Important Owl stylesheet -->
+	<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+	 
+	<!-- Default Theme -->
+	<link rel="stylesheet" href="owl-carousel/owl.theme.css">
+
+	<!-- Custom CSS -->
+	<link href="css/style2.css" rel="stylesheet">
+	
+
+	 
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- top header -->
+	<div class="navbar-wrapper container-fluid">
+		<div class="col-lg-4">
+			<div class="social-top">
+                <a class="rss" href="index.html"
+                target="_blank"><i class="fa fa-rss"></i></a> <a class=
+                "youtube" href="index.html"
+                target="_blank"><i class="fa fa-youtube"></i></a> <a class=
+                "twitch" href="index.html"
+                target="_blank"><i class="fa fa-twitch"></i></a> <a class=
+                "steam" href="index.html" target=
+                "_blank"><i class="fa fa-steam"></i></a> <a class=
+                "google-plus" href="index.html"
+                target="_blank"><i class="fa fa-google-plus"></i></a>
+                <a class="twitter" href=
+                "index.html" target=
+                "_blank"><i class="fa fa-twitter"></i></a> <a class=
+                "facebook" href="index.html"
+                target="_blank"><i class="fa fa-facebook"></i></a>
+            </div>
+			
+		</div>
+		<div class="logo col-lg-4 col-md-4">
+			<a class="brand" href="index.html"><img alt="logo" src="images/logo.png"></a>
+		</div>
+	
+	
+		<div class="login-info">
+			<!-- Script Convite Discord -->
+			<div id="discordInviteBox"></div>
+
+        </div>
+		</div>
+
+	<!-- main navigation -->
+	<nav class="navbar navbar-inverse container-fluid header-navigation-wrapper">
+		<div class="container"> 
+			<div class="navbar-header"> 
+					<span class="sr-only">Toggle navigation</span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> 
+				</button>
+			</div>
+			
+			<div class="collapse navbar-collapse" id="header-menu">
+				<ul class="nav navbar-nav header-menu-navigation">
+					
+					<li><a href="index.html" class="no-dropdown"><i class="header-menu-icon fa fa fa-home"></i><span class="header-menu-text">Pagina Inicial</span></a></li>
+
+					<li><a href="partidas-aovivo.html" class="no-dropdown"><i class="header-menu-icon fa fa-line-chart"></i><span class="header-menu-text">Estatisticas ao vivo</span></a></li>
+
+					<li><a href="https://discord.gg/tqcV7CnByE" class="no-dropdown"><i class="header-menu-icon fa fa-registered"></i><span class="header-menu-text">Como Ingressar</span></a></li>
+
+					<li><a href="profile.html" class="no-dropdown"><i class="header-menu-icon fa fa-users"></i><span class="header-menu-text">Quem somos</span></a></li>			
+
+			</div> 
+		</div> 
+	</nav>
+
+	<!-- Animacao Video Background dota2 -->
+	<video id="background-video" autoplay loop muted poster="images/third_banner_img.png">
+		<source src="dota_montage_02.mp4" type="video/mp4">
+	  </video>
+	<div id="layerslider" style="width: 1900px; height: 510px;">
+
+	<!-- Slide de abertura do site -->
+    	<div class="ls-slide">
+			    		
+			<!-- Banner Bem Vindo -->
+    		<img src="images/mt.png" class="ls-l" data-ls="parallaxlevel: -1;"  alt="Image layer" style="top:10%; left:50%;">
+			
+			<!-- Banner Discord Logo Invite  -->
+			<a href="https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86" class="ls-l"  data-ls="offsetxin: 0; offsetyin: 230; delayin: 500" style="top: 45%; left: 34%;"><img src="images/tip1.png"><p class="text-center">Baixe o Aplicativo</p></a>
+
+			<!-- Banner Logo Dt2BRASIL -->
+			<a href="https://discord.gg/Nc3wrvtZpP" class="ls-l"  data-ls="offsetxin: 0; offsetyin: 230; delayin: 1000" style="top: 45%; left: 50%;"><img src="images/tip2.png"><p class="text-center">DT2-BRASIL - DISCORD SERVER</p></a>
+
+			<!-- Banner ??? -->
+			<a href="#.html" class="ls-l"  data-ls="offsetxin: 0; offsetyin: 230; delayin: 1500" style="top: 45%; left: 66%;"><img src="images/tip3.png"><p class="text-center">EM BREVE</p></a>
+
+			<!-- Divisor -->
+			<img src="images/dividers.png" class="ls-l" data-ls="fadein: true" alt="Image layer" style="top:45%; left:50%;">
+			
+			
+			<!-- Botao Connectar Ao Discord (amarelo)-->
+			<div class="ls-l slider-text text-center" style="left:50%; top:80%;">
+				<a href="https://discord.gg/tqcV7CnByE" target="_blank" class="animated-button2">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					connect discord - dt2 brasil oficial2
+				  </a>
+			
+			</div>
+    	</div>
+	</div>
+
+	<!-- Atualizacoes (EM construção)-->
+	<div class="container-fluid ticker">
+		<div class="container">
+			<div class="ticker-title">
+				<i class="fa fa-bullhorn"></i><span>&nbsp;Atualizações</span>
+			</div>
+			<div class="tickercontainer">
+			    <div class="mask">
+			        <ul id="webticker" class="newsticker">
+			            <li class="ticker-spacer"></li>
+			            <li>Registre-se em nosso discord</li>
+			            <li>Faça parte de nossa comunidade e cresça como jogador</li>
+			            <li class="last" >Todos os dias jogos organizados para diversão de todos</li>
+			        </ul>
+			        <span class="tickeroverlay-left">&nbsp;</span>
+			        <span class="tickeroverlay-right">&nbsp;</span>
+			    </div>
+			</div>
+			<div class="search-top">
+				<form method="get" id="sform" action="">
+                    <input type="search" placeholder="Search for..." autocomplete="off" name="s" style="width: 3px; padding: 10px 20px 8px; border: 0px solid transparent; cursor: pointer; color: rgb(0, 0, 0);">
+                    <input type="hidden" name="post_type[]" value="post">
+                    <input type="hidden" name="post_type[]" value="page">
+                    <i class="fa fa-envelope"></i>
+                </form>
+			</div>
+		</div>
+	</div>
+
+	<!-- page content wrapper -->
+	<section class="content-wrapper container-fluid no-padding">
+		<!-- columns wrapper -->
+		<section class="container main">
+			<!-- left column -->
+			<div class="col-lg-3 left-column">
+
+				<!-- content title -->
+				<div class="main-content-title">
+					<h3><i class="fa fa-twitter"></i> Ultimas Atualizaões</h3>
+
+				</div>
+
+				<!-- single post -->
+				<div class="single-post">
+					<div class="thumbnail-wrapper">
+					<div class="container no-padding">
+				<div class="container1">	
+					
+					<h1>Últimas Atualizações do Dota 2</h1>
+
+<style>
+  #patch-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .patch-card {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 20px;
+    width: 320px;
+    box-shadow: 0 4px 12px rgba(0, 191, 255, 0.5);
+    transition: transform 0.3s ease;
+    color: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .patch-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 24px rgba(0, 191, 255, 0.8);
+  }
+  .patch-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  .patch-card h3 {
+    margin-top: 0;
+    color: #00bfff;
+    text-align: center;
+  }
+  .patch-card p {
+    font-size: 1rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .patch-card a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .patch-card a:hover {
+    text-decoration: underline;
+  }
+  #status {
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    color: #888;
+  }
+</style>
+
+<div id="patch-cards"></div>
+<div id="status">Carregando atualizações...</div>
+
+<script>
+  const patchCardsContainer = document.getElementById('patch-cards');
+  const statusText = document.getElementById('status');
+
+  const API_URL = 'https://cors-anywhere.herokuapp.com/https://api.opendota.com/api/constants/patches';
+
+  async function atualizarCards() {
+    statusText.textContent = "Buscando atualizações...";
+
+    try {
+      const res = await fetch(API_URL);
+      if (!res.ok) throw new Error('Falha ao carregar notas');
+      const patchesData = await res.json();
+
+      const patchesArray = Object.values(patchesData)
+        .filter(p => p.name && p.version)
+        .sort((a,b) => (b.date || 0) - (a.date || 0));
+
+      patchCardsContainer.innerHTML = '';
+
+      patchesArray.slice(0, 2).forEach(patch => {
+        const card = document.createElement('div');
+        card.className = 'patch-card';
+
+        const img = document.createElement('img');
+        img.src = `https://cdn.cloudflare.steamstatic.com/apps/dota2/images/blogfiles/${patch.version.replace(/\./g, '_')}.png`;
+        img.alt = patch.name;
+
+        const titulo = document.createElement('h3');
+        titulo.textContent = patch.name;
+
+        const descricao = document.createElement('p');
+        descricao.textContent = patch.description || 'Descrição não disponível';
+
+        const link = document.createElement('a');
+        link.href = `https://www.dota2.com/news/updates?utm_source=kaos_community`;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = 'Leia mais';
+
+        card.appendChild(img);
+        card.appendChild(titulo);
+        card.appendChild(descricao);
+        card.appendChild(link);
+
+        patchCardsContainer.appendChild(card);
+      });
+
+      statusText.textContent = `Última atualização: ${new Date().toLocaleTimeString()}`;
+    } catch (err) {
+      statusText.textContent = "Erro ao buscar atualizações.";
+      console.error(err);
+    }
+  }
+
+  atualizarCards();
+  setInterval(atualizarCards, 300000);
+</script>
+
+
+				</div>
+				</div>				
+								<span class="post-rating"><b><i class="fa fa-trophy"></i>Novidades</b></span>
+							</div>
+						</div>
+					</div>
+
+			<!-- middle column -->
+			<div class="col-lg-5 mid-column">
+
+				<!-- Banner Evento DotaPlus Fixo no Centro -->
+				<div class="main-content-title">
+					<h3><i class="fa fa-line-chart"></i> Resultados AO-Vivo </h3>
+				</div>
+
+				<!-- matches -->
+				<div class="tab-content-wrapper">
+					<ul class="nav nav-tabs matches-tab-wrapper">
+					  <li class="active"><a data-toggle="tab" href="#h">NOVIDADE !! EVENTO EM BREVE</a></li>
+					</ul>
+
+					<div class="tab-content">
+					  <div id="h" class="tab-pane fade in active">
+					  	<!-- matches list -->
+					    <ul class="match-list">
+					    	<!-- single match -->
+					    	<li class="single-match-wrapper">
+						    	<!-- Tumb de noticias -->
+								<div class="single-post">
+									<div class="thumbnail-wrapper">
+										<a href="single-post.html" class="single-post-img"><img src="images/9-305x200.jpg" alt="thumb"></a>
+										<a href="blog-style.html" class="category-link racing">EVENTO</a>
+										<span class="post-rating"><b class="racing-color"><i class="fa fa-trophy"></i>Novidade</b></span>
+									</div>
+								</div>
+					  </li></ul>
+						</div>			  
+					</div>
+				</div>
+			</div>
+
+			<!-- DISCORD SERVIDOR -->
+			<div class="main-content-title">
+					<h3><i class="fa fa-discord"></i>Discord - Server</h3>
+					</div>
+			
+			<!-- review post list -->
+				<ul class="sidebar-review">
+			
+			<!-- single review -->
+				<li class="single-review">
+				<div class="thumbnail-wrapper">
+
+				<!-- Iframe do Servidor Discord DT2-Brasil -->
+				<iframe src="https://discord.com/widget?id=751008780145131591&theme=dark" width="380" height="700" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+					</li>
+				</ul>
+				</div>
+			</div>
+			<!-- right column -->
+			<div class="col-lg-4 right-column">
+
+	   		</div>				    	
+		</section> 
+
+	<!-- main content wrapper -->
+	<section class="container-fluid content-wrapper no-padding">
+
+		<!-- features -->
+		<div class="container features">
+
+			<!-- single feature -->
+			<div class="col-lg-3 single-feature">
+				<div class="feature-icon-wrapper">
+					<span><i class="fa fa-users"></i></span>
+				</div>
+				<h4>Jogue Sempre em Grupos</h4>
+				<p>Jogue sempre com os melhores jogadores em partidas de grupo</p>
+			</div>
+
+			<!-- single feature -->
+			<div class="col-lg-3 single-feature">
+				<div class="feature-icon-wrapper">
+					<span><i class="fa fa-trophy"></i></span>
+				</div>
+				<h4>Competitivo Elaborado</h4>
+				<p>Partidas Competitivas para subir seu rank mmr estudando o jogo junto de outras pessoas</p>
+			</div>
+
+			<!-- single feature -->
+			<div class="col-lg-3 single-feature">
+				<div class="feature-icon-wrapper">
+					<span><i class="fa fa-newspaper-o"></i></i></span>
+				</div>
+				<h4>Sempre Atualizado</h4>
+				<p>Estamos sempre analizando e estudando as melhoras formas dentro das atualizações mais recentes</p>
+			</div>
+
+			<!-- single feature -->
+			<div class="col-lg-3 single-feature">
+				<div class="feature-icon-wrapper">
+					<span><i class="fa fa-heartbeat"></i></span>
+				</div>
+				<h4>HATERs PROIBIDOS</h4>
+				<p>Haters e Toxicos não são tolerados</p>
+			</div>
+		</div>
+	</section>
+	
+	<div class="container-fluid copyright">
+		<div class="container">
+			<p>&copy; 2020 Made by <a href="http://dt2discord.com.com/">Kaos & CMN - DT2DISCORD.com</a> </p>
+			<div class="footer-social">
+				<a href="index.html"><i class="fa fa-rss"></i></a>
+				<a href="index.html"><i class="fa fa-youtube"></i></a>
+				<a href="index.html"><i class="fa fa-twitch"></i></a>
+				<a href="index.html"><i class="fa fa-steam"></i></a>
+				<a href="index.html"><i class="fa fa-google-plus"></i></a>
+				<a href="index.html"><i class="fa fa-twitter"></i></a>
+				<a href="index.html"><i class="fa fa-facebook"></i></a>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="container back-to-top-wrapper">
+		<a href="#" class="back-to-top" id="scroll"></a>
+	</div>
+
+	<script src="js/jquery.webticker.min.js"></script>
+
+	<!-- LayerSlider script files -->
+	<script src="layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+	<script src="layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+</body>
+<script type="text/javascript">
+ 
+    // Running the code when the document is ready
+    $(document).ready(function(){
+ 
+        // Calling LayerSlider on the target element
+        $('#layerslider').layerSlider({
+ 			
+ 			responsive : true,
+ 			skinsPath: 'layerslider/skins/'
+
+        });
+        
+        // Calling WebTicker on the target element
+        var ticker = $('#webticker');
+        ticker.webTicker();
+        
+        // Back to top scroll script
+        $('#scroll').click(function(){ 
+    	$("html, body").animate({ scrollTop: 0 }, 900); 
+    	return false; 
+		});
+		
+		$("#owl-demo").owlCarousel({
+			autoPlay: 3000, //Set AutoPlay to 3 seconds
+		 	items : 5
+		});
+		
+		 
+    });
+ 
+</script>
+<script src="js/discordInvite.js"></script>
+<script>
+	discordInvite.init({
+	inviteCode: 'tqcV7CnByE',
+	title: 'DT2-Brasil',
+  });
+  discordInvite.render();
+  </script>
+
+</html>
